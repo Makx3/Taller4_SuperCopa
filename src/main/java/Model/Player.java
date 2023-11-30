@@ -11,7 +11,6 @@ public class Player {
         this.posicion = posicion;
     }
 
-
     public int getNumero() {
         return numero;
     }
@@ -20,7 +19,15 @@ public class Player {
         return nombre;
     }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
     public String getPosicion() {
         return posicion;
+    }
+
+    public void setPosicion(String posicion) {
+        this.posicion = posicion;
     }
 }
